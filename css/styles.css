@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-image: url('../images/pexels-igor-haritanovich.jpg');
+    background-size: cover;
+    background-color: rgb(75, 56, 54);
+    padding: 20px;
+}
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/*.cart {
+    position: relative;
+}
+
+.cart::before {
+    content: url('../images/coffee-41.svg');
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 25px;
+}
+
+.cart-2 {
+    position: relative;
+}
+
+.cart-2::before {
+    content: url('../images/cake-198.svg');
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 25px;
+}*/
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: -35px;
+}
+
+.cake {
+    padding-right: 16px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    color: brown;
+}
+
+footer a:active {
+    color: brown;
+}
